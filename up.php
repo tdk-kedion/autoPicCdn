@@ -13,7 +13,7 @@ URL https://github.com/yumusb/autoPicCdn
 error_reporting(0);
 header('Content-Type: text/html; charset=UTF-8');
 date_default_timezone_set("PRC");
-define("REPO","autoPicCDN");//必须是下面用户名下的公开仓库
+define("REPO","autoPicCdn");//必须是下面用户名下的公开仓库
 define("USER","yukai1996");//必须是当前GitHub用户名
 define("MAIL","1586279036@qq.com");//
 define("TOKEN","3f347b9e3f901b54f1f49ad89a5527f337a21c9a");//https://github.com/settings/tokens 去这个页面生成一个有写权限的token（repo：Full control of private repositories 和write:packages前打勾）
